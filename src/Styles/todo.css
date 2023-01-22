@@ -1,0 +1,101 @@
+.todo {
+    width: 100vw;
+    min-height: 100vh;
+    background: #000;
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+}
+
+.todo_fotm {
+    width: 300px;
+    min-height: 200px;
+    background-color: #909090;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+
+.inputFields {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    border-color: #000;
+    margin: 5px;
+    font-size: 12px;
+    font-weight: 300;
+    opacity: 1;
+    color: #fff;
+    background-color: #202020;
+    line-height: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    width: 105%;
+    padding: 6px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 1;
+    margin: 10px;
+}
+
+.todo_display {
+    width: 100%;
+    min-height: 100px;
+    max-height: 100px;
+    background-color: #000;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.todo_d_d {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #fff;
+}
+
+.minusBtn {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    color: #000;
+    background-color: red;
+    top: 335px;
+    margin-left: 280px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .minusBtn {
+        position: absolute;
+       margin-top: -15px;
+    }
+
+}
